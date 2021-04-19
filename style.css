@@ -1,0 +1,44 @@
+h1 {
+    color: rgb(156, 94, 90);
+}
+body { 
+    background-color: #ff9900;
+
+}
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: rgb(7, 97, 100);
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    flex-direction:row-reverse;
+}
+
+.grid {
+
+    border: blue;
+    border-style: ridge;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
